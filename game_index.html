@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="game.css">
+    <script src="game.js"></script>
+</head>
+<body>
+    <div class="heading">
+        <p>Rock Paper Scissor Game</p>
+    </div>
+    <div class="container">
+
+        <div class="prayer">
+            <p style="font-size: 2rem;">Player:</p>
+        </div>
+
+        <div class="computer">
+            <p style="font-size: 2rem;">Computer:</p>
+        </div>
+
+        <div class="draw"> 
+            <p style="font-size: 2rem;">Draw:</p>
+        </div>
+
+        <div class="play_point">
+           <p id="player" style="font-size: 2rem;">0</p>
+
+        </div>
+
+        <div class="comp_point">
+            <p id="computer" style="font-size: 2rem;" >0</p>
+
+        </div>
+
+        <div class="draw_point">
+            <p id="draw" style="font-size: 2rem;">0</p>
+
+        </div>
+ 
+    </div>
+
+    <div >
+        <div class="choose">
+            <p style="font-size:3rem;color:aliceblue">Choose Your Move:</p>
+           
+        </div>
+        <div class="moves">
+            <p style="font-size:2rem; color:white;" >Move Left:</p>
+        </div>
+    </div>
+
+    <div class="choices">
+        <div>
+            <button class="choice" onclick="game('Rock')" >Rock</button>
+        </div>
+
+        <div>
+            <button class="choice" onclick="game('Paper')">Paper</button>
+        </div>
+
+        <div>
+            <button class="choice" onclick="game('Scissor')">Scissor</button>
+        </div>
+
+    </div>
+
+    <div>
+        <p id="result" style="font-size:2rem; font-weight:bold;color:aliceblue"></p>
+    </div>
+
+
+<script src="game.js"></script>
+
+
+</body>
+</html>
